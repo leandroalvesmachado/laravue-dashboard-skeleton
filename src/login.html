@@ -8,8 +8,8 @@
     <link href="../dist/output.css" rel="stylesheet">
 </head>
 <body class="bg-gray-200">
-    <div class="w-screen h-screen">
-        <div class="bg-white w-[450px] p-12">
+    <div class="flex w-screen h-screen">
+        <div class="w-full bg-white md:w-[450px] p-12">
             <img src="./assets/images/bleach.png">
             <div class="mt-14 mb-4">
                 <h1 class="text-2xl font-bold">Acesse a sua conta</h1>
@@ -28,6 +28,43 @@
                 <div class="absolute bg-gray-300 h-px inset-x-0"></div>
                 <div class="relative text-sm font-medium text-gray-500 bg-white px-2">ou continue com seu e-mail</div>
             </div>
+            <div class="space-y-6">
+                <div>
+                    <label class="block mb-1 text-sm font-semibold text-gray-800">E-mail</label>
+                    <input
+                        type="text"
+                        class="w-full border border-gray-300 rounded-md py-1.5"
+                        name=""
+                        id=""
+                    >
+                </div>
+                <div>
+                    <label class="block mb-1 text-sm font-semibold text-gray-800">Senha</label>
+                    <input
+                        type="password"
+                        class="w-full border border-gray-300 rounded-md py-1.5"
+                        name=""
+                        id=""
+                    >
+                </div>
+            </div>
+            <div class="mt-4 mb-6">
+                <a href="http://" class="text-xs text-gray-700 font-medium">Esqueci minha senha</a>
+            </div>
+            <div>
+                <button class="w-full h-12 text-gray-50 text-sm font-medium bg-sky-500 hover:bg-sky-600 px-3 py-2 rounded-md">
+                    Login
+                </button>
+            </div>
+            <div class="mt-6">
+                <p class="text-sm text-gray-700 font-medium text-center">
+                    Ainda não tem cadastro?
+                    <a href="http://" class="underline font-bold">Cadastre-se</a>
+                </p>
+            </div>
+        </div>
+        <div class="hidden flex-1 flex items-center justify-center bg-red-100">
+            Propaganda
         </div>
     </div>
 </body>
